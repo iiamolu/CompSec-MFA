@@ -2,7 +2,9 @@ function Login() {
     // Display
     return(
         <main>
-            <h1>Welcome Back</h1>
+            <h1 className="text-4xl font-bold text-blue-500">
+                Welcome Back
+            </h1>
             <p>Sign in to your account</p>
             <form>
                 <label htmlFor="username">Username</label>
