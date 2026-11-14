@@ -9,12 +9,24 @@ function Login() {
             {/* Flex column so that username and password aren't next to eachother */}
             <form className="flex flex-col gap-2">
                 <label htmlFor="username">Username</label>
-                <input id="username" type="text" name="username" required/>
+                <input 
+                id="username" 
+                type="text" 
+                name="username"
+                className="border border-gray-300 rounded-lg p-2" 
+                required
+                />
 
 
                 <label htmlFor="password">Password</label>
                 {/* type="password" visually masks on UI */}
-                <input id="password" type="password" name="password" required/>
+                <input 
+                id="password" 
+                type="password" 
+                name="password"
+                className="border border-gray-300 rounded-lg p-2"
+                required
+                />
 
                 <button type="submit">Sign In</button>
             </form>
