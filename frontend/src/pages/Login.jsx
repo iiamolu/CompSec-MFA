@@ -1,13 +1,13 @@
 function Login() {
     // Display
     return(
-        <main>
+        <main className="min-h-screen flex flex-col items-center justify-center gap-4 px-4">
             <h1 className="text-4xl font-bold text-blue-500">
                 Welcome Back
             </h1>
             <p>Sign in to your account</p>
-            {/* Flex column so that username and password aren't next to eachother */}
-            <form className="flex flex-col gap-2">
+            {/* Flex column so that username and password aren't next to eachother; limit form's width */}
+            <form className="flex flex-col gap-2 w-full max-w-sm">
                 <label htmlFor="username">Username</label>
                 <input 
                 id="username" 
