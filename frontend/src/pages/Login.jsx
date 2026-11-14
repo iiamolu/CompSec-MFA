@@ -45,6 +45,18 @@ function Login() {
                     Sign In
                     </button>
             </form>
+
+            {/* Link to registration page */}
+            <p className="text-center mt-4 text-sm text-slate-600">
+                Need an account?{" "}
+                <a
+                    href="#register"
+                    className="text-sky-600 font-semibold hover:underline"
+                >
+                    Create one
+                </a>
+            </p>
+
             </div>
         </main>
     );
