@@ -8,7 +8,7 @@ function Login() {
 
             {/* Centering only the heading and paragraph */}
             <div className="text-center mb-6">
-            <h1 className="text-4xl font-bold text-blue-500">
+            <h1 className="text-4xl font-semibold text-slate-700">
                 Welcome Back
             </h1>
 
