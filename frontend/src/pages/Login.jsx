@@ -6,12 +6,15 @@ function Login() {
             {/* Card around login form */}
             <div className="bg-white rounded-xl shadow-md p-8 w-full max-w-md">
 
+            {/* Centering only the heading and paragraph */}
+            <div className="text-center mb-6">
             <h1 className="text-4xl font-bold text-blue-500">
                 Welcome Back
             </h1>
 
             <p>Sign in to your account</p>
-            
+            </div>
+
             {/* Flex column so that username and password aren't next to eachother; limit form's width */}
             <form className="flex flex-col gap-2 w-full max-w-sm">
                 <label htmlFor="username">Username</label>
@@ -19,7 +22,7 @@ function Login() {
                 id="username" 
                 type="text" 
                 name="username"
-                className="border border-gray-300 rounded-lg p-2" 
+                className="border border-gray-300 rounded-lg p-2 focus:border-sky-400 focus:ring-2 focus:ring-sky-200 focus:outline-none" 
                 required
                 />
 
@@ -30,7 +33,7 @@ function Login() {
                 id="password" 
                 type="password" 
                 name="password"
-                className="border border-gray-300 rounded-lg p-2"
+                className="border border-gray-300 rounded-lg p-2 focus:border-sky-400 focus:ring-2 focus:ring-sky-200 focus:outline-none"
                 required
                 />
                 
