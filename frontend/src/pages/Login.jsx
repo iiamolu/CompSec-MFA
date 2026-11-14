@@ -14,8 +14,10 @@ function Login() {
                 <input id="password" type="password" name="password" required/>
 
                 <button type="submit">Sign In</button>
-            </form>
-        </main>
+                   </form>
+        <p>Need an account? <a href="#register">Create one</a></p>
+        {/* Link to the create account page (added by Elimar) */}
+      </main>
     );
 }
 
