@@ -12,9 +12,9 @@ app.get('/', (req, res) => {
 })
 
 
-app.use('/login', login)
-app.use('/register', register)
-app.use('/auth', auth)
+app.use('/api/login', login)
+app.use('/api/register', register)
+app.use('/api/auth', auth)
 
 
 app.listen(3000)
